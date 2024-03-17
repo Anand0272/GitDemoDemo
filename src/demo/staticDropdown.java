@@ -19,6 +19,10 @@ public class staticDropdown {
 		Select dropdown=new Select(staticDropdown);
 		dropdown.selectByIndex(3);
 		System.out.println(dropdown.getFirstSelectedOption().getText());
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		System.out.println(dropdown.getFirstSelectedOption().getText());
 	}
 
 }
