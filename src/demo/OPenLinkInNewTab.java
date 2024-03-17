@@ -22,6 +22,7 @@ public class OPenLinkInNewTab {
 		
 		WebElement firstColumn=footer.findElement(By.tagName("td"));
 		System.out.println(firstColumn.findElements(By.tagName("a")).get(0).getText());
+		System.out.println(firstColumn.findElements(By.tagName("a")).get(0).getText());
 		String ctrlEnter=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		for(int i=0;i<firstColumn.findElements(By.tagName("a")).size();i++)
 		{
